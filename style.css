@@ -1,0 +1,81 @@
+.container1 {
+    transform: translatex(293px) translatey(0px); /* Desplaza el contenedor horizontalmente 293px. */
+    width: 400px; /* Ancho del contenedor: 400px. */
+    height: 150px; /* Altura del contenedor: 150px. */
+    background-color: rgb(255, 0, 43); /* Color de fondo: rojo. */
+    position: relative; /* Posicionamiento relativo. */
+    margin: 500px; /* Margen en todos los lados: 500px. */
+    margin-top: 10px; /* Margen superior: 10px. Sobrescribe el margen general. */
+    text-align: center; /* Alinea el texto al centro del contenedor. */
+    box-shadow: 5px 5px 10px rgba(0, 132, 255, 0.842); /* Sombra del contenedor. */
+}
+
+.container2 {
+    transform: translatex(392px) translatey(7px); /* Desplaza el contenedor horizontalmente 392px y verticalmente 7px. */
+    width: 400px; /* Ancho del contenedor. */
+    height: 150px; /* Altura del contenedor. */
+    background-color: rgb(0, 110, 255); /* Color de fondo: azul. */
+    margin: 20px; /* Margen en todos los lados: 20px. */
+    margin-top: -450px; /* Margen superior negativo para desplazar el contenedor hacia arriba. */
+    text-align: center; /* Alinea el texto al centro. */
+    box-shadow: 5px 5px 10px rgba(90, 0, 0, 0.842); /* Sombra del contenedor. */
+}
+
+.container3 {
+    transform: translatex(181px) translatey(8px); /* Desplaza el contenedor horizontalmente 181px y verticalmente 8px. */
+    width: 400px; /* Ancho del contenedor. */
+    height: 150px; /* Altura del contenedor. */
+    background-color: rgb(255, 255, 255); /* Color de fondo: blanco. */
+    margin: 900px; /* Margen en todos los lados: 900px. */
+    margin-top: -170px; /* Margen superior negativo para desplazar el contenedor hacia arriba. */
+    text-align: center; /* Alinea el texto al centro. */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.842); /* Sombra del contenedor. */
+}
+
+.container4 {
+    border-left: thick solid #000; /* Borde izquierdo grueso y sólido de color negro. */
+    height: 5%; /* Altura del contenedor: 5% del contenedor padre. */
+    left: 50%; /* Posiciona el contenedor a la mitad horizontalmente. */
+    position: absolute; /* Posicionamiento absoluto. */
+    margin: -1px; /* Margen negativo para ajustar la posición. */
+    margin-top: -1100px; /* Margen superior negativo para desplazar el contenedor hacia arriba. */
+    margin-right: -90px; /* Margen derecho negativo. */
+    margin-left: 25px; /* Margen izquierdo. */
+}
+
+hr {
+    height: 10px; /* Altura de la línea horizontal: 10px. */
+    width: 50%; /* Ancho de la línea horizontal: 50% del contenedor padre. */
+    background-color: black; /* Color de fondo de la línea: negro. */
+    margin-top: -1070px; /* Margen superior negativo para desplazar la línea hacia arriba. */
+    border: none; /* Sin borde. */
+}
+
+#VideoFondo {
+    position: fixed; /* Posicionamiento fijo. */
+    right: 0%; /* Alineado a la derecha. */
+    bottom: 0%; /* Alineado en la parte inferior. */
+    min-width: 100%; /* Ancho mínimo: 100% del ancho de la ventana. */
+    min-height: 100%; /* Altura mínima: 100% de la altura de la ventana. */
+    z-index: -1; /* Coloca el video detrás de otros elementos. */
+    align-items: center; /* Centra verticalmente el contenido del video. */
+}
+
+.container5 {
+    border-left: thick solid #000; /* Borde izquierdo grueso y sólido de color negro. */
+    height: 3%; /* Altura del contenedor: 3% del contenedor padre. */
+    left: 50%; /* Posiciona el contenedor a la mitad horizontalmente. */
+    position: absolute; /* Posicionamiento absoluto. */
+    margin-top: -18px; /* Margen superior negativo para ajustar la posición. */
+    margin-left: -340px; /* Margen izquierdo negativo para ajustar la posición. */
+}
+
+.container6 {
+    border-left: thick solid #000; /* Borde izquierdo grueso y sólido de color negro. */
+    height: 3%; /* Altura del contenedor: 3% del contenedor padre. */
+    left: 50%; /* Posiciona el contenedor a la mitad horizontalmente. */
+    position: absolute; /* Posicionamiento absoluto. */
+    margin-top: -18px; /* Margen superior negativo para ajustar la posición. */
+    margin-left: 335px; /* Margen izquierdo para ajustar la posición. */
+}
+
